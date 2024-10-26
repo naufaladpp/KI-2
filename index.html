@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="google-site-verification" content="dxwFTpAdAACQ_3yMZuYO0LB702tqXc-5FtdWGiQ6mcY" />
+
+  <title>KI 2</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+  <link rel="manifest" href="favicon/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+  <nav class="navbar sticky-top bg-light" id="navbar_top">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="#"></a>
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Beranda</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#tarik">Jadwal Pelajaran</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#judul9">Jadwal Piket</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#menfess">Menfess</a>
+          </li>
+        </ul>
+        <iframe src='https://my.spline.design/untitled-77b8b7c34547601e37898aefad888c58/' frameborder='0' width='100%' height="250px"></iframe>
+      </div>
+    </div>
+  </nav>
+  <br>
+  <div class="Hi_makhluk">Haloo! Makhluk KI 2!</div>
+  </div>
+  <div id="good" ></div>
+  <div id="current-block" class="block-info">
+      Blok yang sedang digunakan minggu ini: <span id="block-display">...</span>
+  </div>
+  <form id=”form1″ name=”form1″ method=”post” onsubmit="searchGoogle()">
+    <div class="pencarian"><input type="text" name="pencarian" id="searchGoogleInput" placeholder="Cari di Google..."></div>
+  </form>
+
+  <div class="Welcome" id="Welc">Selamat Datang
+    <br>
+    <div class="bawah_welcome" id="bwh_wlc">
+      Yukk cek jadwal KI 2</div>
+  </div>
+  <br>
+    <nav class="navbar navbar-light bg-light border-top bg-info navbar-expand fixed-bottom" id="navbar_bottom">
+      <ul class="navbar-nav nav-justified w-100">
+        <li class="nav-item">
+          <a href="#" class="nav-link"><i class="fa-solid fa-house"></i><br>
+            <div class="text_icon">Beranda</div>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#tarik" class="nav-link"><i class="fa-solid fa-calendar-days"></i><br>
+            <div class="text_icon">Jadwal</div>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#judul12" class="nav-link"><i class="fa-solid fa-list-check"></i><br>
+            <div class="text_icon">Piket</div>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#menfess" class="nav-link">
+            <i class="fa-solid fa-envelope-open-text"></i><br>
+            <div class="text_icon">Menfess</div>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  <div class="tarik" id="tarik">
+    <br>
+    <div class="garis_tarik"></div>
+
+    <h4 style="margin: 1em auto 1em; width: 10em; " id="judul1" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="5">Jadwal Pelajaran Blok 1</h4>
+
+        <ul data-aos="fade-up" data-aos-duration="1000" data-aos-offset="15">
+          <div class="Senin" id="judul2"> SENIN</div>
+          <div class="mapel">
+            <li>UGPW</li>
+            <li>DPK KI</li>
+            <li>DPK KI</li>
+            <li>DPK KI</li>
+          </div>
+        </ul>
+
+    <div data-aos="fade-up" data-aos-duration="1000" data-aos-offset="40">
+        <ul>
+          <div class="Selasa" id="judul3">SELASA</div>
+          <div class="mapel" style="height: 100px">
+            <li>DPK KI</li>
+            <li>DPK KI</li>
+            <li>DPK KI</li>
+          </div>
+        </ul>
+    </div>
+
+
+        <ul data-aos="fade-up" data-aos-duration="1000" data-aos-offset="30">
+          <div class="Rabu" id="judul4">RABU</div>
+          <div class="mapel" style="height: 100px">
+            <li>DPK KI</li>
+            <li>PIPAdS</li>
+            <li>INF</li>
+          </div>
+        </ul>
+
+
+        <div data-aos="fade-up" data-aos-duration="1000" data-aos-offset="25">
+          <ul>
+            <div class="Kamis" id="judul5">KAMIS</div>
+            <div class="mapel" style="height: 100px">
+              <li>INF</li>
+              <li>PIPAdS</li>
+              <li>PENJASKES</li>
+            </div>
+          </ul>
+        </div>
+
+          <div data-aos="fade-up" data-aos-duration="1000" data-aos-offset="25">
+            <ul>
+              <div class="Jumat" id="judul6">JUMAT</div>
+              <div class="mapel" style="height: 120px">
+                <li>JBJS</li>
+                <li>NGARENG</li>
+                <li>PIPAdS</li>
+                <li>BP/BK</li>
+              </div>
+            </ul>
+            <br>
+          </div>
+      
+
+    <h4 style="margin: 1em auto 1em; width: 10em; " id="judul7" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="5">Jadwal Pelajaran Blok 2</h4>
+
+        <ul data-aos="fade-up" data-aos-duration="1000" data-aos-offset="15">
+          <div class="Senin" id="judul8"> SENIN</div>
+          <div class="mapel">
+            <li>UGPW</li>
+            <li>B. Ind</li>
+            <li>B. Ind</li>
+            <li>SI</li>
+          </div>
+        </ul>
+
+    <div data-aos="fade-up" data-aos-duration="1000" data-aos-offset="40">
+        <ul>
+          <div class="Selasa" id="judul9">SELASA</div>
+          <div class="mapel" style="height: 160px">
+            <li>SI</li>
+            <li>SB</li>
+            <li>PP</li>
+            <li>PP</li>
+            <li>NGARENG</li>
+            <li>MTK</li>
+          </div>
+        </ul>
+    </div>
+
+
+        <ul data-aos="fade-up" data-aos-duration="1000" data-aos-offset="30">
+          <div class="Rabu" id="judul10">RABU</div>
+          <div class="mapel" style="height: 140px">
+            <li>PAIBP</li>
+            <li>PAIBP</li>
+            <li>SB</li>
+            <li>BJ</li>
+            <li>BI</li>
+          </div>
+        </ul>
+
+
+        <div data-aos="fade-up" data-aos-duration="1000" data-aos-offset="25">
+          <ul>
+            <div class="Kamis" id="judul11">KAMIS</div>
+            <div class="mapel" style="height: 120px">
+              <li>PENJASKES</li>
+              <li>BJ</li>
+              <li>MTK</li>
+              <li>MTK</li>
+            </div>
+          </ul>
+        </div>
+
+          <div data-aos="fade-up" data-aos-duration="1000" data-aos-offset="25">
+            <ul>
+              <div class="Jumat" id="judul12">JUMAT</div>
+              <div class="mapel" style="height: 100px">
+                <li>JBJS</li>
+                <li>BI</li>
+                <li>BI</li>
+              </div>
+            </ul>
+            <br>
+          </div>
+            
+
+    <h4 id="judul13" data-aos="fade-up" data-aos-duration="800" data-aos-offset="20">Jadwal Piket</h4>
+    <center>
+      <div class="dropdown">
+        <button class="btn  dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" id="Buttonj" data-aos="fade-up" data-aos-duration="600" data-aos-offset="25">
+          <span id="senin">Senin</span>
+        </button>
+
+        <ul class="dropdown-menu">
+          <li class="dropdown-item">1. Syukron</li>
+          <li class="dropdown-item">2. Agung</li>
+          <li class="dropdown-item">3. Tasya</li>
+          <li class="dropdown-item">4. Aqila</li>
+          <li class="dropdown-item">5. Zaza</li>
+          <li class="dropdown-item">6. Bais</li>
+          <li class="dropdown-item">7. Bunga</li>
+          <li class="dropdown-item">8. Cindy</li>
+        </ul>
+      </div>
+
+
+      <div class="dropdown">
+        <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" id="Buttonj" data-aos="fade-up" data-aos-duration="600" data-aos-offset="25">
+          <span id="selasa">Selasa</span>
+        </button>
+        <ul class="dropdown-menu">
+          <li class="dropdown-item">1. Davina</li>
+          <li class="dropdown-item">2. Ewin</li>
+          <li class="dropdown-item">3. Fatimah</li>
+          <li class="dropdown-item">4. Inayah</li>
+          <li class="dropdown-item">5. Jesnita</li>
+          <li class="dropdown-item">6. Kartika</li>
+          <li class="dropdown-item">7. Akbar</li>
+        </ul>
+      </div>
+      <br><br>
+
+      <div class="dropdown">
+        <button class="btn  dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" id="Buttonj" data-aos="fade-up" data-aos-duration="900" data-aos-offset="25">
+          <span id="rabu">Rabu</span>
+        </button>
+        <ul class="dropdown-menu">
+          <li class="dropdown-item">1. Khusna</li>
+          <li class="dropdown-item">2. Laras</li>
+          <li class="dropdown-item">3. Lulu R</li>
+          <li class="dropdown-item">4. Lulu S</li>
+          <li class="dropdown-item">5. Maul</li>
+          <li class="dropdown-item">6. Nadiya</li>
+          <li class="dropdown-item">7. Naela</li>
+        </ul>
+      </div>
+
+      <div class="dropdown">
+        <button class="btn  dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" id="Buttonj" data-aos="fade-up" data-aos-duration="1100" data-aos-offset="25">
+          <span id="kamis">Kamis</span>
+        </button>
+        <ul class="dropdown-menu">
+          <li class="dropdown-item">1. Naufal (Web Developer😎)</li>
+          <li class="dropdown-item">2. Lala</li>
+          <li class="dropdown-item">3. Novike</li>
+          <li class="dropdown-item">4. Intan</li>
+          <li class="dropdown-item">5. Prisca</li>
+          <li class="dropdown-item">6. Putri</li>
+          <li class="dropdown-item">7. Dinda</li>
+        </ul>
+      </div>
+
+      <div class="dropdown">
+        <button class="btn  dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" id="Buttonj" data-aos="fade-up" data-aos-duration="900" data-aos-offset="25">
+          <span id="jumat">Jumat</span>
+        </button>
+        <ul class="dropdown-menu">
+          <li class="dropdown-item">1. Ritma</li>
+          <li class="dropdown-item">2. Safa</li>
+          <li class="dropdown-item">3. Silvi</li>
+          <li class="dropdown-item">4. Suci D</li>
+          <li class="dropdown-item">5. Suci N</li>
+          <li class="dropdown-item">6. Lintang</li>
+          <li class="dropdown-item">7. Syifa</li>
+        </ul>
+      </div>
+    </center>
+
+
+    <br>
+    
+<br>
+
+    <div class="menfess" id="menfess">
+      <i class="fa-solid fa-quote-left" id="quote"></i>
+      <h4 data-aos="fade-up" data-aos-duration="1000" data-aos-offset="25" id="judul15">Menfess</h4>
+
+              <form action="https://formspree.io/f/xqakkpga" method="POST">
+        <center>
+          <input type="text" name="Dari:" placeholder="Dari :" required id="input" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="25">
+          <input type="text" name="Ke:" required id="input" placeholder="Ke :" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="25">
+          <textarea placeholder="Pesan :" type="text" name="Pesan:" required id="input" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="25"></textarea>
+          <button class="buttonSubmit" type="submit" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="25">
+            <span class="text" id="submit">Kirim</span>
+            <img src="patch-check.svg" id="iconv">
+          </button>
+        </center>
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_template" value="table">
+      </form>
+
+      <i class="fa-solid fa-quote-right" id="quoteright"></i>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+    </div>
+    </div>
+  </div>
+  
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script>
+    function searchGoogle() {
+        const query = document.getElementById("searchGoogleInput").value;
+        const url = `https://www.google.com/search?q=${encodeURIComponent(query)}`;
+        window.open(url, '_blank');
+    }
+</script>
+</body>
+
+</html>
